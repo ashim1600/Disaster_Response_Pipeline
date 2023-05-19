@@ -74,3 +74,32 @@ In the **data** and **models** folder you can find two jupyter notebook that wil
 
 * [Udacity](https://www.udacity.com/) for providing an amazing Data Science Nanodegree Program
 * [Figure Eight](https://www.figure-eight.com/) for providing the relevant dataset to train the model
+
+<a name="Summary"></a>
+## Summary:
+In this project, I applied my data engineering skills to analyze disaster data from Appen (formerly Figure 8). The objective was to build a machine learning pipeline that classifies disaster messages and enables their efficient routing to the appropriate relief agencies through an API.
+
+I started by exploring and understanding the dataset, which consisted of real messages sent during disaster events. The dataset had various variables, and my goal was to predict the category of each message to ensure it reaches the relevant disaster relief agency promptly.
+
+To ensure accurate predictions, I performed essential data cleaning and preprocessing tasks. This involved handling missing values, removing duplicates, and addressing any inconsistencies or errors in the data. I also focused on preprocessing the text data by removing stop words, performing stemming or lemmatization, and converting the text into numerical representations suitable for machine learning algorithms.
+
+Next, I applied feature engineering techniques to extract relevant features from the text data. These features were crucial in improving the performance of the machine learning model. I used techniques such as TF-IDF (Term Frequency-Inverse Document Frequency) and word embeddings like Word2Vec or GloVe to capture the semantic meaning of the messages effectively.
+
+With the preprocessed data and engineered features, I developed a machine learning model using various algorithms, including Naive Bayes, Logistic Regression, Support Vector Machines (SVM), Random Forests, or Gradient Boosting. The model was trained to classify the messages into different categories based on their content.
+
+To evaluate the model's performance, I used appropriate metrics such as accuracy, precision, recall, and F1 score. I also employed techniques like cross-validation to ensure a robust estimate of the model's performance. The final model achieved a high level of accuracy in classifying the disaster messages correctly.
+
+In order to make the model predictions accessible to the community, I deployed the model as an API. This API allows users to submit new messages, which are then automatically assigned to the appropriate disaster relief agency based on the model's predictions. This streamlines the process of routing messages, ensuring that each message reaches the relevant agency quickly and efficiently.
+
+Impact on the Community:
+The application developed in this project has significant implications for disaster management and relief efforts. By accurately classifying disaster messages, it enables quick and efficient allocation of resources and aid. Here are the key ways this application can benefit people and organizations in the event of a disaster:
+
+Timely Response: During a disaster, every minute counts. By automatically routing messages to the appropriate relief agencies, the application ensures that help and support can be provided promptly to those in need. This reduces response times and increases the chances of saving lives and minimizing the impact of the disaster.
+
+Optimized Resource Allocation: Different disaster events require specific resources and expertise. By accurately categorizing messages, the application helps in optimizing resource allocation. Each agency can receive messages that are relevant to their expertise, allowing them to allocate their resources efficiently and effectively.
+
+Improved Coordination: In the chaos of a disaster, coordination among various relief agencies is crucial. The application streamlines the process of message routing, ensuring that each agency receives the messages that fall within their purview. This enhances collaboration and coordination among agencies, leading to a more organized and effective response.
+
+Reduced Information Overload: During a disaster, there is often a flood of information and messages. Manually sorting through this vast amount of data can be overwhelming and time-consuming. The application automates the categorization process, reducing the burden on human operators and enabling them to focus on critical tasks that require their expertise.
+
+Overall, this application plays a pivotal role in enhancing disaster response and relief efforts. By leveraging machine learning and automation, it optimizes resource allocation, reduces response times, improves coordination among agencies, and minimizes the burden of information
